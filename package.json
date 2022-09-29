@@ -10,5 +10,11 @@
   "scripts": {
     "start": "wrangler dev",
     "deploy": "wrangler publish"
+  },
+  "dependencies": {
+    "@envelop/graphql-modules": "^3.6.0",
+    "@graphql-yoga/common": "^2.12.12",
+    "graphql": "^16.6.0",
+    "graphql-modules": "^3.0.0-alpha-20220928142355-e1096a88"
   }
 }
